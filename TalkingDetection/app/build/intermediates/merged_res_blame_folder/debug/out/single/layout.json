@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "ru.apvolov.talkingdetection.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "ru.apvolov.talkingdetection.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-mergeDebugResources-35:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\layout\\activity_main.xml"
+    }
+]

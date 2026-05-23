@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TalkingDetection</string>
+    <string name="camera_front">Фронтальная камера</string>
+    <string name="camera_back">Задняя камера</string>
+    <string name="switch_camera">Переключить камеру</string>
+</resources>

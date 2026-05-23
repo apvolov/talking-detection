@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.apvolov.talkingdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:4:5-65
+11-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:4:22-62
+12
+13    <uses-feature
+13-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:5:5-84
+14        android:name="android.hardware.camera"
+14-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:5:19-57
+15        android:required="true" />
+15-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:5:58-81
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:6:5-70
+16-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:6:19-67
+17
+18    <permission
+18-->[androidx.core:core:1.12.0] C:\Users\apvol\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+19        android:name="ru.apvolov.talkingdetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.12.0] C:\Users\apvol\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.12.0] C:\Users\apvol\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="ru.apvolov.talkingdetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+22-->[androidx.core:core:1.12.0] C:\Users\apvol\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.12.0] C:\Users\apvol\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:25:5-79
+24-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:25:22-76
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:26:5-67
+25-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:26:22-64
+26
+27    <application
+27-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:8:5-26:19
+28        android:allowBackup="true"
+28-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:9:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.12.0] C:\Users\apvol\.gradle\caches\transforms-3\db3f6b8020888a7f113f2982cc217484\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:10:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:11:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:12:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:13:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.LipTalk" >
+37-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:14:9-45
+38        <activity
+38-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:16:9-24:20
+39            android:name="ru.apvolov.talkingdetection.MainActivity"
+39-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:17:13-68
+40            android:exported="true"
+40-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:18:13-36
+41            android:screenOrientation="portrait" >
+41-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:19:13-49
+42            <intent-filter>
+42-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:20:13-23:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:21:17-69
+43-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:21:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:22:17-77
+45-->C:\Users\apvol\Desktop\bmstu\iu5\sem_06\tmm\hw\talking-detection\TalkingDetection\app\src\main\AndroidManifest.xml:22:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <service
+49-->[androidx.camera:camera-camera2:1.3.1] C:\Users\apvol\.gradle\caches\transforms-3\c8323cb7db0e78064b9ec8634ca1cb8d\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+50            android:name="androidx.camera.core.impl.MetadataHolderService"
+50-->[androidx.camera:camera-camera2:1.3.1] C:\Users\apvol\.gradle\caches\transforms-3\c8323cb7db0e78064b9ec8634ca1cb8d\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+51            android:enabled="false"
+51-->[androidx.camera:camera-camera2:1.3.1] C:\Users\apvol\.gradle\caches\transforms-3\c8323cb7db0e78064b9ec8634ca1cb8d\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+52            android:exported="false" >
+52-->[androidx.camera:camera-camera2:1.3.1] C:\Users\apvol\.gradle\caches\transforms-3\c8323cb7db0e78064b9ec8634ca1cb8d\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.camera:camera-camera2:1.3.1] C:\Users\apvol\.gradle\caches\transforms-3\c8323cb7db0e78064b9ec8634ca1cb8d\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+54                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+54-->[androidx.camera:camera-camera2:1.3.1] C:\Users\apvol\.gradle\caches\transforms-3\c8323cb7db0e78064b9ec8634ca1cb8d\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+55                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+55-->[androidx.camera:camera-camera2:1.3.1] C:\Users\apvol\.gradle\caches\transforms-3\c8323cb7db0e78064b9ec8634ca1cb8d\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+56        </service>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\apvol\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\apvol\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+60            android:authorities="ru.apvolov.talkingdetection.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\apvol\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\apvol\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\apvol\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\apvol\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\apvol\.gradle\caches\transforms-3\c4dab8d1a445d82bbdf5c45e5c471e0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\apvol\.gradle\caches\transforms-3\ea8e01bdab487f57e89cfd2a57773ff1\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\apvol\.gradle\caches\transforms-3\ea8e01bdab487f57e89cfd2a57773ff1\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\apvol\.gradle\caches\transforms-3\ea8e01bdab487f57e89cfd2a57773ff1\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+70                android:value="androidx.startup" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+71        </provider>
+72
+73        <receiver
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+74            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+75            android:directBootAware="false"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+76            android:enabled="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+77            android:exported="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+78            android:permission="android.permission.DUMP" >
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+80                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+83                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+86                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+89                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\apvol\.gradle\caches\transforms-3\4fe9f85f1db47f470d7a1d0e318b4ef2\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+90            </intent-filter>
+91        </receiver>
+92
+93        <service
+93-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+94            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+94-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+95            android:exported="false" >
+95-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+96            <meta-data
+96-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+97                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+97-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+98                android:value="cct" />
+98-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\b3f823250a1f3fc4e66832704abe8fb0\transformed\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+99        </service>
+100        <service
+100-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\c1134bb10f13ababe32859ed708c7a62\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
+101            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+101-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\c1134bb10f13ababe32859ed708c7a62\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:27:13-117
+102            android:exported="false"
+102-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\c1134bb10f13ababe32859ed708c7a62\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:28:13-37
+103            android:permission="android.permission.BIND_JOB_SERVICE" >
+103-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\c1134bb10f13ababe32859ed708c7a62\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:29:13-69
+104        </service>
+105
+106        <receiver
+106-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\c1134bb10f13ababe32859ed708c7a62\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:32:9-34:40
+107            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+107-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\c1134bb10f13ababe32859ed708c7a62\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:33:13-132
+108            android:exported="false" />
+108-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\apvol\.gradle\caches\transforms-3\c1134bb10f13ababe32859ed708c7a62\transformed\jetified-transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
+109    </application>
+110
+111</manifest>

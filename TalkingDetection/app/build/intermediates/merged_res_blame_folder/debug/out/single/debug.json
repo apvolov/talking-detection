@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\mipmap-xxhdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "ru.apvolov.talkingdetection.app-merged_res-36:/drawable_bg_circle_button.xml.flat",
+        "source": "ru.apvolov.talkingdetection.app-main-38:/drawable/bg_circle_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-merged_res-36:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\mipmap-xhdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-merged_res-36:\\mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\mipmap-hdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-merged_res-36:\\mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\mipmap-mdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\mipmap-mdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "ru.apvolov.talkingdetection.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "ru.apvolov.talkingdetection.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\apvol\\.gradle\\daemon\\8.4\\ru.apvolov.talkingdetection.app-main-38:\\mipmap-hdpi\\ic_launcher_round.xml"
+    }
+]
